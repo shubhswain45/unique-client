@@ -1,7 +1,7 @@
 import { GraphQLClient } from "graphql-request";
 
 export const createGraphqlClient = (token?: string) => {
-    return new GraphQLClient('https://moments-server-2-1.onrender.com/graphql', {
+    return new GraphQLClient('https://unique-server.onrender.com/graphql', {
         credentials: "include"
     });
 }
